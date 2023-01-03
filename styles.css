@@ -1005,6 +1005,14 @@ time {
 /* padding:2rem; */
 }
 
+.platinum img{
+  
+  padding: 2rem;
+}
+
+.solana img{
+  padding:2.5rem;
+}
 
 /* Slick -- Slider */
 
@@ -1133,7 +1141,15 @@ time {
     /* margin: 1vh; */
     width: 50vw !important;
     height: 18vw !important;
-  }  
+  } 
+  .platinum img{
+  
+  padding: 2rem;
+}
+
+.solana img{
+  padding:2rem;
+}
 }
 
 @media screen and (max-width: 576px) {
@@ -1168,11 +1184,4 @@ time {
   padding-left:2vw;
 }
 
-.platinum img{
-  
-  padding: 2rem;
-}
 
-.solana img{
-  padding:2rem;
-}
