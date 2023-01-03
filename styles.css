@@ -308,23 +308,26 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: 1rem ;
+  padding: 0.7rem 1rem ;
   border-radius: 0.5rem;
   font-weight: var(--font-semi-bold);
   transition: 0.3s;
 }
 
-/*
-.register{
-  margin-left: 1rem;
-} */
+.register img{
+  width:250px;
+} 
 
 
 @media screen and (max-width:768px){
   .button{
     font-size: 0.75rem;
-    padding:0.75rem;
+    padding:0.5rem 0.75rem;
   }
+
+  .register img{
+    width:200px;
+  } 
 }
 .button:hover {
   background-color: var(--first-color-alt);
@@ -410,8 +413,12 @@ img {
   }
 
   .button{
-    padding:0.5rem;
+    padding:0.2rem 0.5rem;
   }
+
+ /*  .register img{
+    width:200px;
+  }  */
 }
 
 /*========== ACCESSORIES ==========*/
@@ -469,7 +476,7 @@ img {
   border-radius: 1rem 0 1rem 0;
 }
 
-.sponsor-container img{
+/* .sponsor-container img{
   width:500px;
   display:block;
   margin: 10rem auto;
@@ -499,7 +506,7 @@ img {
     margin:5rem auto;
     height:5vh;
   }
-}
+} */
 /*========== SEND GIFT ==========*/
 .send {
   background-color: var(--first-color-send);
@@ -613,6 +620,10 @@ img {
   .send__img {
     width: 100%;
   }
+
+  .register img{
+    width:200px;
+  } 
 }
 
 @media screen and (min-width: 576px) {
@@ -647,6 +658,8 @@ img {
   .about__pollux {
     order: -1;
   }
+
+  
 }
 
 @media screen and (min-width: 768px) {
