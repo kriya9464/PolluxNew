@@ -74,7 +74,7 @@ body.dark-theme {
 }
 
 /*========== Button Dark/Light ==========*/
-/* .change-theme {
+ .change-theme {
   position: absolute;
   right: 1.5rem;
   top: 2.2rem;
@@ -83,7 +83,7 @@ body.dark-theme {
   font-size: 2rem;
   cursor: pointer;
 }
- */
+ 
 body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
