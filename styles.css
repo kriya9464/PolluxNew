@@ -308,34 +308,22 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: 0.7rem 1rem ;
+  padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-semi-bold);
   transition: 0.3s;
 }
 
-.register img{
+/*.register img{
   width:250px;
-} 
+} */
 
-
-@media screen and (max-width:768px){
-  .button{
-    font-size: 0.75rem;
-    padding:0.5rem 0.75rem;
-  }
-
-  .register img{
-    width:200px;
-  } 
-}
 .button:hover {
   background-color: var(--first-color-alt);
 }
 
 .button-link {
   background: none;
-  padding: 0;
   color: var(--first-color);
 }
 
@@ -343,6 +331,7 @@ img {
   background-color: transparent;
   color: var(--first-color-alt);
 }
+
 
 /*========== SHARE ==========*/
 .share__data {
@@ -357,7 +346,7 @@ img {
   width: 280px;
   justify-self: center;
 }
-
+*/
 /*========== DECORATION ==========*/
 .decoration__container {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
