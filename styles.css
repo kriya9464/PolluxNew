@@ -314,10 +314,10 @@ img {
   transition: 0.3s;
 }
 
+
 .register{
-  font-size: 1rem;
-  padding:0.25;
-}
+  margin-left: 3rem;
+} 
 
 
 @media screen and (max-width:768px){
@@ -469,8 +469,36 @@ img {
   border-radius: 1rem 0 1rem 0;
 }
 
-.sponsors{
-  text-align: center;
+.sponsor-container img{
+  width:500px;
+  display:block;
+  margin: 10rem auto;
+  height:16vh;
+}
+
+@media screen and (max-width: 1092px){
+  .sponsor-container img{
+  
+    height:17vh;
+  }
+}
+
+
+
+@media screen and (max-width: 800px){
+  .sponsor-container img{
+    width:300px;
+    margin:7rem auto;
+    height:11vh;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .sponsor-container img{
+    width:200px;
+    margin:5rem auto;
+    height:5vh;
+  }
 }
 /*========== SEND GIFT ==========*/
 .send {
