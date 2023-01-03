@@ -1002,6 +1002,7 @@ time {
 .sponsor-container {
   margin: 5% 10%; 
 /*   width: 60%; */
+/* padding:2rem; */
 }
 
 
@@ -1124,6 +1125,8 @@ time {
   margin-top:50px;
 }
 
+
+
 @media screen and (max-width: 1200px) {
   .slick-slide{
     padding: 1vh;
@@ -1163,4 +1166,13 @@ time {
   list-style-type: disc;
   text-align: start;
   padding-left:2vw;
+}
+
+.platinum img{
+  
+  padding: 2rem;
+}
+
+.solana img{
+  padding:2rem;
 }
