@@ -1171,4 +1171,18 @@ time {
   padding-left:2vw;
 }
 
+.theme_img img{
+  width:348px;
+  height:300px;
+}
+
+.problem_img img{
+  width:267px;
+  height:250px;
+}
+
+.schedule_img img{
+  width:300px;
+  height:300px;
+}
 
