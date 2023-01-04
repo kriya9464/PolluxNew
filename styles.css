@@ -1179,7 +1179,11 @@ time {
 .problem_img img{
   width:267px;
   height:250px;
+  margin-left:2rem;
 }
+  .celestial_img img{
+    margin-left:2rem;
+  }
 }
 
 .schedule_img img{
