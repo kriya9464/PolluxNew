@@ -1209,6 +1209,10 @@ time {
   width: 180px;
 }
 
+a:visited{
+  color:blue;
+}
+
 
 
 
